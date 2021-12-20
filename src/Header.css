@@ -36,11 +36,31 @@
 
 .header_nav {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .header_option {
     display: flex;
     color: white;
     flex-direction: column;
+    margin: 0 10px;
+}
+
+.header_optionLineOne {
+    font-size: 10px;
+}
+
+.header_optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header_basketCount {
     margin: 0 10px;
 }
