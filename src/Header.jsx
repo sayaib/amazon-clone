@@ -1,16 +1,18 @@
 import React from "react";
 import "./Header.css";
+import SearchIcon from "@mui/icons-material/Search";
 
 function Header() {
   return (
     <div className="header">
       <img
         className="header_logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
+        src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
         alt="amazon-logo"
       />
       <div className="header_search">
-        <input type="text" className="header_searchIn" />
+        <input type="text" className="header_searchInput" />
+        <SearchIcon className="header_searchIcon" />
       </div>
 
       <div className="header_nav">
@@ -19,7 +21,7 @@ function Header() {
           <span className="header_optionLineTwo">Sign In</span>
         </div>
         <div className="header_option">
-          <span className="header_optionLineOne">Retun</span>
+          <span className="header_optionLineOne">Return</span>
           <span className="header_optionLineTwo">& Orders</span>
         </div>
         <div className="header_option">
