@@ -16,11 +16,18 @@
     height: 150px;
     margin-bottom: 15px;
 }
+.product_title{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+}
 
 .product_price {
     margin-top: 5px;
 }
-.product_rating{
+
+.product_rating {
     display: flex;
 }
 
@@ -28,7 +35,7 @@
     max-height: 200px;
     width: 100%;
     object-fit: contain;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .product>button {
